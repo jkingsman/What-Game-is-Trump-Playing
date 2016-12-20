@@ -1,5 +1,6 @@
 $(document).ready(function() {
     trumpify();
+    $("#reTrump").click(trumpify);
 });
 
 // String possibilities
