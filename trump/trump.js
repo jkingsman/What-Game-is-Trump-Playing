@@ -1,5 +1,7 @@
 $(document).ready(function() {
+    firstClick = false
     trumpify();
+    firstClick = true;
     $("#reTrump").click(trumpify);
 });
 
@@ -16,6 +18,11 @@ function trumpify() {
 
     var gameString = dim + "-dimensional " + adj + " " + game;
     $("#game").text(gameString);
+    // Deliver The Donald if this is the first click
+    if (firstClick) {
+        firstClick = false;
+        $('#trump').delay(1000).fadeIn(3000);
+    }
 }
 // [low, high) => int
 function getRand(low, high) {
