@@ -7,8 +7,8 @@ $(document).ready(function() {
 
 // String possibilities
 DIM_LIM = 15;
-GAMES = ["chess", "checkers", "parcheesi", "backgammon", "mahjong", "tic-tac-toe"];
-ADJECTIVES = ["quantum", "interdimensonal", "nonlinear", "interstellar"];
+GAMES = ["chess", "checkers", "parcheesi", "backgammon", "mahjong", "tic-tac-toe", "kaput"];
+ADJECTIVES = ["4-dimensional", "quantum", "interdimensional", "nonlinear", "interstellar", "hypercubic"];
 
 // Form a Trump string from random strings in the global lists
 function trumpify() {
